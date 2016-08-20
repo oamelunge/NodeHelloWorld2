@@ -3,3 +3,7 @@ language: node_js
 # test on two node.js versions: 0.6 and 0.8
 node_js:
   - 4
+deploy:
+  provider: heroku
+  api_key: f4ad7b6d-f8cc-4ff1-8c20-fd47cc0c0254
+  app: evening-castle-20441
