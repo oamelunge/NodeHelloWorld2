@@ -12,9 +12,19 @@ describe('Array', function() {
       assert.equal(4, sum(2,2));
     });
   });
+  
+  describe('SubsTracOfTwoNumbers', function() {
+    it('should return the subtrac of thow numbers', function() {
+      assert.equal(0, sub(2,2));
+    });
+  });
 
 });
 
 var sum = function(a,b){
     return a+b;
+}
+
+var sub= function(a,b){
+  return a*b;
 }
