@@ -7,3 +7,8 @@ deploy:
   provider: heroku
   api_key: f4ad7b6d-f8cc-4ff1-8c20-fd47cc0c0254
   app: evening-castle-20441
+
+notifications:
+  slack:
+    rooms:
+      - agileoscar:zFown3kyeyoZMDk6htJvHwBA#general
