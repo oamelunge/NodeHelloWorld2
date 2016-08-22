@@ -18,6 +18,12 @@ describe('Array', function() {
       assert.equal(0, sub(2,2));
     });
   });
+  
+  describe('Multiply', function() {
+    it('should return the subtrac of thow numbers', function() {
+      assert.equal(0, mtp(2,2));
+    });
+  });
 
 });
 
@@ -28,3 +34,7 @@ var sum = function(a,b){
 var sub= function(a,b){
   return a-b;
 }
+var mtp= function(a,b){
+  return a*b;
+}
+
