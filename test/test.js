@@ -26,5 +26,5 @@ var sum = function(a,b){
 }
 
 var sub= function(a,b){
-  return a*b;
+  return a-b;
 }
