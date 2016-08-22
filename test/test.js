@@ -21,7 +21,7 @@ describe('Array', function() {
   
   describe('Multiply', function() {
     it('should return the subtrac of thow numbers', function() {
-      assert.equal(0, mtp(2,2));
+      assert.equal(4, mtp(2,2));
     });
   });
 
